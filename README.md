@@ -18,11 +18,13 @@ This project focuses on segmenting customers based on their purchase behavior an
 ## 🗃️ Dataset
 
 The dataset contains detailed sales transactions including:
-- `customer_id`
-- `review_score`
-- `amount` (purchase value)
-- `city`, `state`
-- `date`, `order_id`
+- `CustomerID`
+- `CustomerDOB`
+- `TransactionAmount (INR)`
+- `CustAccountBalance`
+- `CustGender`
+- `CustLocation`
+- `TransactionDate`
 - and more...
 
 ✅ **Preprocessing Steps**:
