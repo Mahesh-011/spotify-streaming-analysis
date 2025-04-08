@@ -27,13 +27,15 @@ The dataset contains detailed sales transactions including:
 - `TransactionDate`
 - and more...
 
-✅ **Preprocessing Steps**:
+# ✅ **Preprocessing Steps**:
 - Removed irrelevant columns
 - Standardized date formats
 - Handled missing values
 - Created additional features (e.g., total spent per customer)
 
 ---
+# Dashboard Screenshot : 
+<img width="601" alt="customer_segmentation" src="https://github.com/user-attachments/assets/12d1adad-5317-4f55-a938-b35aac3a2e39" />
 
 
 
