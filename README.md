@@ -19,6 +19,14 @@ This Power BI dashboard reveals critical bottlenecks in shipping, warehouse oper
 | 💰 Discount Cost | $297K | 47% high-discount orders |
 | ⚖️ Avg Weight | 3.63kg | Heavy parcels delay correlation |
 
+## 🛠️ Technical Implementation
+### Tools Used
+| Category | Tools |
+|----------|-------|
+| **Data Handling** |  SQL (Data extraction, cleaning, and transformation) |
+| **Visualization** | Power BI (Bar/Line/Pie Charts) |
+| **Version Control** | Git |
+
 ## 🔍 Key Findings & Recommendations
 ### 🚚 Shipping Mode Analysis
 - ✈️ **Flights**: 60.2% late (worst performer)  
@@ -36,12 +44,5 @@ This Power BI dashboard reveals critical bottlenecks in shipping, warehouse oper
 - 🔥 **High Discounts**: 46.9% of orders, but +5% late rate  
   → *Implement tiered discounts for premium customers*
 
-## 🛠️ Technical Implementation
-### Tools Used
-| Category | Tools |
-|----------|-------|
-| **ETL** | Power Query |
-| **Analysis** | DAX Measures |
-| **Visualization** | Power BI (Bar/Line/Pie Charts) |
-| **Version Control** | Git |
+
 
