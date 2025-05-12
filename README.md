@@ -1,7 +1,6 @@
 # 📊 Supply Chain Optimization Dashboard
 
-![Dashboard Preview](<img width="601" alt="Screenshot 2025-05-09 165204" src="https://github.com/user-attachments/assets/0b6d129b-0778-496b-8d3b-da8ae40cfdaf" />
-)  
+![Dashboard Preview](<img width="601" alt="Screenshot 2025-05-09 165204" src="https://github.com/user-attachments/assets/0b6d129b-0778-496b-8d3b-da8ae40cfdaf" />).  
 *Interactive Power BI dashboard analyzing 11K+ orders to identify logistics inefficiencies*
 
 ## 🔍 Overview
@@ -9,6 +8,11 @@ This Power BI dashboard reveals critical bottlenecks in shipping, warehouse oper
 - Identified **59.7% late shipment rate** with root-cause analysis
 - Quantified **$297K discount impact** on margins
 - Provided **data-driven recommendations** to improve customer satisfaction (2.99★)
+
+## 📂 Dataset Source
+- The dataset was sourced from [Kaggle / XYZ Supply Chain Dataset](#)  
+- Contains 11,000+ order records with attributes like shipping mode, customer rating, discount, etc.
+
 
 ## 🚀 Key Metrics
 | Metric | Value | Insight |
