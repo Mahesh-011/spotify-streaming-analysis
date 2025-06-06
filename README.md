@@ -1,6 +1,6 @@
 # 🎧 Spotify Global Streaming Data Analysis (2024)
 
-This project analyzes the **Spotify 2024 Global Streaming Data** to uncover insights about artist performance, genre engagement, platform behavior, and user trends across countries and time.
+This project analyzes the **Spotify 2024 Global Streaming Data** to uncover insights about artist performance, genre engagement, platform behavior, and user trends across countries and time.The analysis leverages a dataset of 500 entries across multiple dimensions to identify key trends in the music streaming industry.
 
 ---
 
