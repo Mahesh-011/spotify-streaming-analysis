@@ -17,6 +17,13 @@ The dataset includes streaming metrics such as:
 The objective is to derive **actionable insights** from this data that can assist artists, record labels, and streaming platforms in improving audience engagement and strategic planning.
 
 ---
+## Key Objectives
+- Identify top-performing artists and genres
+- Analyze listener engagement patterns
+- Compare platform performance (Free vs Paid tiers)
+- Examine regional streaming differences
+- Evaluate temporal trends in music consumption
+- Develop novel engagement metrics
 
 ## 🛠️ Tools & Technologies
 
@@ -35,16 +42,6 @@ The objective is to derive **actionable insights** from this data that can assis
 - Temporal Trend Analysis
 - Comparative Platform Assessment
 - Custom Metric Development
-
-## 📂 Project Structure
-📁 Streaming-Behavior-Analysis/
-│
-├── 📄 Streaming_Behavior_Analysis.ipynb 
-├── 📊 Visuals/ 
-├── 📁 data/
-│ └── Spotify_2024_Global_Streaming_Data.csv
-└── README.md 
-
 
 ---
 
