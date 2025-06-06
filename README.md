@@ -73,11 +73,11 @@ The objective is to derive **actionable insights** from this data that can assis
 
 ### 4. 🌍 Country-wise Streaming Engagement
 Top 5 countries by total hours streamed:
-- 🇰🇷 **South Korea:** 315,992M hours  
-- 🇸🇪 **Sweden:** 315,892M hours  
-- 🇿🇦 **South Africa:** 296,354M hours  
-- 🇧🇷 **Brazil:** 262,070M hours  
-- 🇷🇺 **Russia:** 261,482M hours  
+- **South Korea:** 315,992M hours  
+- **Sweden:** 315,892M hours  
+- **South Africa:** 296,354M hours  
+- **Brazil:** 262,070M hours  
+- **Russia:** 261,482M hours  
 → Reflects regional differences in listening behavior and content preferences.
 
 ---
