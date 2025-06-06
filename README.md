@@ -28,15 +28,22 @@ The objective is to derive **actionable insights** from this data that can assis
 - **Jupyter Notebook**
 
 ---
+## Methodology
+### Analytical Approach
+- Exploratory Data Analysis (EDA)
+- Statistical Hypothesis Testing
+- Temporal Trend Analysis
+- Comparative Platform Assessment
+- Custom Metric Development
 
 ## 📂 Project Structure
 📁 Streaming-Behavior-Analysis/
 │
-├── 📄 Streaming Behavior Analysis.ipynb # Complete analysis & visualizations
-├── 📊 Visuals/ # All generated plots (optional)
+├── 📄 Streaming_Behavior_Analysis.ipynb 
+├── 📊 Visuals/ 
 ├── 📁 data/
 │ └── Spotify_2024_Global_Streaming_Data.csv
-└── README.md # Project summary and insights
+└── README.md 
 
 
 ---
@@ -123,7 +130,7 @@ This project demonstrates how streaming data can provide **critical insights** i
 
 **Author:** [Mahesh Godala]  
 📧 Email: maheshgodala1@gmail.com  
-🔗 GitHub: [Mahesh](https://github.com/Mahesh-011)
+🔗 GitHub: [Mahesh-011](https://github.com/Mahesh-011)
 
 ---
 
