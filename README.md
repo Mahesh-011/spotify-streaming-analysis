@@ -1,52 +1,133 @@
-# 📊 Supply Chain Optimization Dashboard
+# 🎧 Spotify Global Streaming Data Analysis (2024)
 
-![Dashboard Preview](<img width="601" alt="Screenshot 2025-05-09 165204" src="https://github.com/user-attachments/assets/0b6d129b-0778-496b-8d3b-da8ae40cfdaf" />).  
-*Interactive Power BI dashboard analyzing 11K+ orders to identify logistics inefficiencies*
+This project analyzes the **Spotify 2024 Global Streaming Data** to uncover insights about artist performance, genre engagement, platform behavior, and user trends across countries and time.
 
-## 🔍 Overview
-This Power BI dashboard reveals critical bottlenecks in shipping, warehouse operations, and discount strategies. Key highlights:
-- Identified **59.7% late shipment rate** with root-cause analysis
-- Quantified **$297K discount impact** on margins
-- Provided **data-driven recommendations** to improve customer satisfaction (2.99★)
+---
 
-## 📂 Dataset Source
-- The dataset was sourced from [Kaggle / XYZ Supply Chain Dataset](#)  
-- Contains 11,000+ order records with attributes like shipping mode, customer rating, discount, etc.
+## 📊 Project Overview
+
+The dataset includes streaming metrics such as:
+- Total Streams (Millions)
+- Skip Rate (%)
+- Monthly Listeners (Millions)
+- Total Hours Streamed
+- Platform Type (Free / Paid)
+- Artist, Genre, Country, Release Year
+
+The objective is to derive **actionable insights** from this data that can assist artists, record labels, and streaming platforms in improving audience engagement and strategic planning.
+
+---
+
+## 🛠️ Tools & Technologies
+
+- **Python**
+- **Pandas** for data wrangling  
+- **Matplotlib** & **Seaborn** for data visualization  
+- **NumPy** for numerical computations  
+- **SciPy** for statistical testing  
+- **Jupyter Notebook**
+
+---
+
+## 📂 Project Structure
+📁 Streaming-Behavior-Analysis/
+│
+├── 📄 Streaming Behavior Analysis.ipynb # Complete analysis & visualizations
+├── 📊 Visuals/ # All generated plots (optional)
+├── 📁 data/
+│ └── Spotify_2024_Global_Streaming_Data.csv
+└── README.md # Project summary and insights
 
 
-## 🚀 Key Metrics
-| Metric | Value | Insight |
-|--------|-------|---------|
-| 📦 Total Orders | 11,000 | Baseline volume |
-| ⏳ Late Shipment Rate | 59.7% | **+12% vs industry avg** |
-| ⭐ Avg Rating | 2.99★ | Customer dissatisfaction |
-| 💰 Discount Cost | $297K | 47% high-discount orders |
-| ⚖️ Avg Weight | 3.63kg | Heavy parcels delay correlation |
+---
 
-## 🛠️ Technical Implementation
-### Tools Used
-| Category | Tools |
-|----------|-------|
-| **Data Handling** |  SQL (Data extraction, cleaning, and transformation) |
-| **Visualization** | Power BI (Bar/Line/Pie Charts) |
-| **Version Control** | Git |
+## 🔍 Key Business Insights
 
-## 🔍 Key Findings & Recommendations
-### 🚚 Shipping Mode Analysis
-- ✈️ **Flights**: 60.2% late (worst performer)  
-  → *Re-negotiate contracts with air freight partners*
-- 🚛 **Road**: 58.8% late (best option)  
-  → *Increase road capacity for time-sensitive orders*
+### 1. 🎤 Top Artists Dominate Global Streaming
+- **BTS** leads with ~124.2B total streams.
+- Other top performers: **Dua Lipa, Bad Bunny, BLACKPINK, Doja Cat**.
+- Indicates strong fanbases and global reach.
 
-### 🏭 Warehouse Optimization
-- 🔴 **Block F**: 2,194 late shipments (peak volume)  
-  → *Implement lean inventory management*
-- 🟢 **Block A**: 54.7% late (most efficient)  
-  → *Replicate best practices across warehouses*
+---
 
-### 💸 Discount Strategy
-- 🔥 **High Discounts**: 46.9% of orders, but +5% late rate  
-  → *Implement tiered discounts for premium customers*
+### 2. 🎼 Genre Trends and Listener Engagement
+- Most streamed genres: **K-pop, R&B, Reggaeton**.
+- **Pop & Hip-Hop** genres show lower skip rates, suggesting **strong listener retention**.
+- **Longer average stream durations** correlate with **lower skip rates**, signaling deeper engagement.
+
+---
+
+### 3. 🆚 Platform Performance Comparison
+- **Minimal difference** in engagement between **Free (20.5%)** and **Paid (20.3%)** platforms.
+- **T-test result:** p-value = 0.8361 → **Not statistically significant**.
+- Platform type **does not significantly influence** skip behavior.
+
+---
+
+### 4. 🌍 Country-wise Streaming Engagement
+Top 5 countries by total hours streamed:
+- 🇰🇷 **South Korea:** 315,992M hours  
+- 🇸🇪 **Sweden:** 315,892M hours  
+- 🇿🇦 **South Africa:** 296,354M hours  
+- 🇧🇷 **Brazil:** 262,070M hours  
+- 🇷🇺 **Russia:** 261,482M hours  
+→ Reflects regional differences in listening behavior and content preferences.
+
+---
+
+### 5. 📆 Temporal Insights
+- Most albums released during **2019–2023**.
+- Older albums (e.g., **Ed Sheeran**, **Post Malone**) still maintain strong streaming numbers.
+- Ed Sheeran’s recent albums gathered **~166M & ~173M** streams in the **last 30 days** alone.
+
+---
+
+### 6. 📈 Engagement Efficiency Score
+- Custom metric to evaluate platform performance:Engagement Score =
+(Total Hours Streamed / Monthly Listeners) × (1 - Skip Rate)
+- Platforms with **higher stream durations** and **lower skip rates** rank higher.
+- Visualized using a **Radar Chart** for easy comparison.
+
+---
+
+### 7. ⏱ Hours per Stream (Listening Depth)
+- Artists with higher **Hours per Stream** provide **deeper engagement**.
+- Reflects **strong storytelling, loyal fanbases, or longer-form content**.
+
+---
+
+### 8. 💡 ROI – Streams per Listener
+- Calculated as:ROI = Total Streams / Monthly Listeners
+
+- High ROI artists exhibit **strong replay value** and **efficient fan engagement**.
+
+---
+
+## 📌 Conclusion
+
+This project demonstrates how streaming data can provide **critical insights** into listener behavior, platform performance, and content impact. These insights can guide:
+- Artist promotion strategies
+- Genre-targeted campaigns
+- Platform-level UX and pricing decisions
+
+---
+
+## 📥 Dataset Source
+
+> 🔗 *This project uses a fictional/representative dataset for analysis purposes.*  
+> [https://www.kaggle.com/datasets/atharvasoundankar/spotify-global-streaming-data-2024.]
+
+---
+
+## 📬 Contact
+
+**Author:** [Mahesh Godala]  
+📧 Email: maheshgodala1@gmail.com  
+🔗 GitHub: [Mahesh](https://github.com/Mahesh-011)
+
+---
+
+## ⭐ If you found this useful, give it a ⭐ and follow for more data-driven projects!
 
 
 
